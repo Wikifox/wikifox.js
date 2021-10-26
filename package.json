@@ -1,0 +1,18 @@
+{
+  "name": "wikifox",
+  "version": "1.0.2",
+  "description": "A powerful, restful and light-weight module that connect WikiPedia api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wikipedia",
+    "api"
+  ],
+  "author": "Harry Tom",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch-commonjs": "^3.0.3"
+  }
+}
