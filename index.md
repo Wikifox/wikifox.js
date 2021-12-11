@@ -226,11 +226,14 @@ wiki.getOnThisDay({
 # 🛡️ License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+# Real-life examples
+
+- [wikifox](https://wikifox.netlify.app) (modified version)
+
 # 💪 Support
 Please consider ⭐ Starring this repo!
 
-<a href="https://www.buymeacoffee.com/harrytom">
-<img src="https://uc955a45fbc9fb11f51423c80b87.previews.dropboxusercontent.com/p/thumb/ABUbZ3O1fuqK2UkRFXNSwr2OtzjI4gR2H0N_84nXm6x2msRzobVH7k33jBREgYSldpme_u97bcsNmMz77fWF4tHizlNK7SPFUMtRfLHpwK7C3IGSykqOBtk1vFYglcDkGDQguz7atnW88wf3fT0N5RDpIcfn3740VIm_y2glnpEeHOsyQNEHQ-g2HST0j4thBvUA-esyUDWtga-ORU4yxPj6O93gU7MADI9VD0KwhDR-bzJNsit0P8OEvQMd6jUbpsfKa-WisWWFsp0F5BwarPraXyUB0d5y3oLiXbVWRkh7sVk6idsD5zgXsnTw18NPgkstRbtXOok14b83MYE-xunhavvXCjR4DXuWuoqoXMA3Bw/p.png?fv_content=true&size_mode=5" width="200px"></a>
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J16V6AZ)
 
 <a href="https://www.producthunt.com/posts/wikifoxjs?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-wikifoxjs" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=318256&theme=dark" alt="WikifoxJS - Connecting your app with Wikipedia made easy! | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
