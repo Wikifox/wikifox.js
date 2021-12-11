@@ -1,4 +1,4 @@
-![WikiFox Banner](docs/assets/images/WiKIFOX.JS.png)
+
 # WikifoxJS [![Version](https://img.shields.io/badge/Version-1.0.8-Blue.svg)](#)
 
 WikifoxJS is a light-weight, powerful and restful Javascript library which connects to WikiPedia api. This library can be used to get Content from wikipedia. This has functions like **Getting Articles**, **Searching articles**, **Getting Images**, **Downloading a page** as `PDF` and **Data about a specific day**. All the data are returned in the form of **JSON Objects**.
