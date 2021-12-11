@@ -68,6 +68,8 @@ This is used to get basic summary from Wikipedia. This will return the object wi
 | Parameter              | What to pass?                          |Example                         |
 |------------------------|----------------------------------------|--------------------------------|
 | `title` [string]       | Title of the Wikipedia Page            |"google"                        |
+
+
 ```
 wiki.getArticle("google").then((data)=>{
     console.log(data)
@@ -93,6 +95,8 @@ This is used to search the whole wikipedia with the passed title
 | Parameter              | What to pass?                          |Example                         |
 |------------------------|----------------------------------------|--------------------------------|
 | `title` [string]       | Title of the Wikipedia Page            |"google"                        |
+
+
 ```
 wiki.searchArticles("google").then((data)=>{
     console.log(data)
@@ -126,6 +130,8 @@ This is used to get all the Images from a Wikipedia Page.
 | Parameter              | What to pass?                          |Example                         |
 |------------------------|----------------------------------------|--------------------------------|
 | `title` [string]       | Title of the Wikipedia Page            |"google"                        |
+
+
 ```
 wiki.getImage("google").then((data)=>{
     console.log(data)
