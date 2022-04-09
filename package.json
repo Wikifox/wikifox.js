@@ -1,0 +1,29 @@
+{
+	"name": "wikifox",
+	"version": "2.0.0",
+	"description": "A powerful, restful and light-weight module that connect WikiPedia api",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Wikifox/wikifox.js.git"
+	},
+	"keywords": [
+		"wikipedia",
+		"wikifox",
+		"api"
+	],
+	"author": "Harry",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Wikifox/wikifox.js/issues"
+	},
+	"homepage": "https://github.com/Wikifox/wikifox.js#readme",
+	"dependencies": {
+		"axios": "^0.26.1",
+		"cheerio": "^1.0.0-rc.10"
+	}
+}
