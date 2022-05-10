@@ -52,27 +52,27 @@ Today.GetOnThisDay(config, (result) => {
 
 
 /* OUTPUT */
-
 {
-    "success":true,
-    "data":{
-        "results":{
-            "events":[
-                {
-                    "year":"887",
-                    "snippet":"Berengar I is elected as king of Italy by the lords of Lombardy. He is crowned with the Iron Crown of Lombardy at Pavia."
-                },
-                {
-                    "year":"1481",
-                    "snippet":"Battle of Westbroek: An army of 4,000 to 5,000 soldiers raised by David of Burgundy, Bishop of Utrecht, attacks an armed mob of people from nearby Utrecht who were trying to avenge the massacre of the inhabitants of Westbroek."
-                },
-                // .. and much more
-            ]
-        },
-        "categories":[
-            "events"
-        ],
-        "date":"December 26"
-    }
+	"success": true,
+	"data": {
+		"events": [
+			{
+				"year": "28 BC",
+				"article": "/wiki/Sunspot",
+				"snippet": "A sunspot is observed by Han dynasty astronomers during the reign of Emperor Cheng of Han, one of the earliest dated sunspot observations in China."
+			},
+			{
+				"year": "1291",
+				"article": "/wiki/Nobles",
+				"snippet": "Scottish nobles recognize the authority of Edward I of England pending the selection of a king."
+			}
+			// .. and much more
+		]
+        // births and deaths if given in configs object
+	"categories": [
+			"events"
+	],
+		"date": "December 26"
+	}
 }
 ```

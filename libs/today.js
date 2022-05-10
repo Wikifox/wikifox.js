@@ -83,12 +83,15 @@ const WikiScrapper = {
 							li.each((i, elem) => {
 								try {
 									var data = $(elem).text().split(" – ");
+									var link = $($(elem).html().split(" – ")[1])
+										.filter("a:first")
+										.attr("href");
 									var content = data[1]
 										.replace(/ *\([^)]*\) */g, "")
 										.replace(/ *\[[^)]*\] */g, "");
-
 									var Obj = {
 										year: data[0],
+										article: link,
 										snippet: content,
 									};
 									rArray.push(Obj);
@@ -105,11 +108,9 @@ const WikiScrapper = {
 			if (typeof callback === "function") {
 				callback({
 					success: true,
-					data: {
-						results: Obj,
-						categories: category,
-						date: month + " " + day,
-					},
+					data: Obj,
+					categories: category,
+					date: month + " " + day,
 				});
 			}
 		});
